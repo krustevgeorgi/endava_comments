@@ -1,0 +1,27 @@
+.commentWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FC3F00;
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: white;
+    margin: 10px 0;
+}
+
+.commentText {
+    margin: 0;    
+    width: 85%;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.editButton:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.editButton {
+    margin-left: 5px;
+}
